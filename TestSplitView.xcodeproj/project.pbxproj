@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		211A1FC23037460E00FEA1B5 /* TestSplitView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestSplitView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		211A1FC23037460E00FEA1B5 /* MeineApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeineApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -40,7 +40,7 @@
 		211A1FC33037460E00FEA1B5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				211A1FC23037460E00FEA1B5 /* TestSplitView.app */,
+				211A1FC23037460E00FEA1B5 /* MeineApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +48,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		211A1FC13037460E00FEA1B5 /* TestSplitView */ = {
+		211A1FC13037460E00FEA1B5 /* MeineApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 211A1FCD3037461000FEA1B5 /* Build configuration list for PBXNativeTarget "TestSplitView" */;
+			buildConfigurationList = 211A1FCD3037461000FEA1B5 /* Build configuration list for PBXNativeTarget "MeineApp" */;
 			buildPhases = (
 				211A1FBE3037460E00FEA1B5 /* Sources */,
 				211A1FBF3037460E00FEA1B5 /* Frameworks */,
@@ -63,11 +63,11 @@
 			fileSystemSynchronizedGroups = (
 				211A1FC43037460E00FEA1B5 /* TestSplitView */,
 			);
-			name = TestSplitView;
+			name = MeineApp;
 			packageProductDependencies = (
 			);
-			productName = TestSplitView;
-			productReference = 211A1FC23037460E00FEA1B5 /* TestSplitView.app */;
+			productName = MeineApp;
+			productReference = 211A1FC23037460E00FEA1B5 /* MeineApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +99,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				211A1FC13037460E00FEA1B5 /* TestSplitView */,
+				211A1FC13037460E00FEA1B5 /* MeineApp */,
 			);
 		};
 /* End PBXProject section */
@@ -255,14 +255,15 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.0x53olution.TestSplitView;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.0x53olution.MeineApp;
+				PRODUCT_NAME = MeineApp;
 				REGISTER_APP_GROUPS = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -285,14 +286,15 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.0x53olution.TestSplitView;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.0x53olution.MeineApp;
+				PRODUCT_NAME = MeineApp;
 				REGISTER_APP_GROUPS = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -315,7 +317,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		211A1FCD3037461000FEA1B5 /* Build configuration list for PBXNativeTarget "TestSplitView" */ = {
+		211A1FCD3037461000FEA1B5 /* Build configuration list for PBXNativeTarget "MeineApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				211A1FCE3037461000FEA1B5 /* Debug */,
